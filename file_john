@@ -1,0 +1,35 @@
+S3 Location
+
+Glue Database and Table
+
+Glue Database and Table
+
+s3://oedsd-dev-s3-dl-db2p1-prepared-pub-ue1-all/db2p1/dw_acct/
+
+oedsd-dev-gluecatalogdb-dl-all.dw_acct
+
+Q1_BASE.dw_acct - no data
+
+s3://oedsd-dev-s3-dl-db2p1-prepared-con-ue1-all/db2p1/dw_adr/
+
+oedsd-dev-gluecatalogdb-dl-all.dw_adr - no data
+
+Q1_BASE.dw_adr
+
+s3://oedsd-dev-s3-dl-db2p1-prepared-con-ue1-all/db2p1/dw_cust/
+
+oedsd-dev-gluecatalogdb-dl-all.dw_cust
+
+Q1_BASE.dw_cust
+
+s3://oedsd-dev-s3-dl-db2p1-prepared-pub-ue1-all/db2p1/dw_bif_act_brnch/
+
+oedsd-dev-gluecatalogdb-dl-all.dw_bif_act_brnch
+
+Q1_BASE.dw_bif_act_brnch
+
+
+on the above we have 8 tables (4 prepare and 4 refined) 4 prepare layer tables doenot have data so cannot work on it 
+outof 4 refined layer i woked on 2 tables rest of the 2 tables having all most same simliar schema.
+so have prepare for the 2 tables.
+and for working of the lake formation i have some 2 sample tables 
